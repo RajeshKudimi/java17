@@ -43,4 +43,5 @@ jobs:
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
 
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C89DEBC7EC8A4408BD489C763345F4B8 }}
+          #publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C89DEBC7EC8A4408BD489C763345F4B8 }}
+
